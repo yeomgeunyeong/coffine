@@ -30,4 +30,22 @@ $(function(){
         dots:true,
     })
 
+
+    //section4 
+
+    $(".s4_left_move").slick({
+        autoplay:true,
+        dots:true,
+        arrows:false,
+        slidesToScroll:2
+    })
+
+
+
+    //sns 탭 메뉴 
+    $(".section5_inner ul li").click(function(e){
+        e.preventDefault();
+        $(".section5_inner ul li").toggleClass("on")
+    })
+
 })
